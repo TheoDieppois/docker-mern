@@ -28,7 +28,7 @@ class UpdateMovie extends Component {
     }
 
     render() {
-        return <Update onClick={this.updateUser}>Update</Update>
+        return <Update onClick={this.updateUser}>Modifier</Update>
     }
 }
 
@@ -47,7 +47,7 @@ class DeleteMovie extends Component {
     }
 
     render() {
-        return <Delete onClick={this.deleteUser}>Delete</Delete>
+        return <Delete onClick={this.deleteUser}>Supprimer</Delete>
     }
 }
 
